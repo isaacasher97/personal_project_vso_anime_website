@@ -1,0 +1,28 @@
+/* Apply background color and center elements */
+body {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: This ensures that the content is vertically centered on the page */
+  }
+  
+  /* Style the unordered list */
+  ul {
+    list-style-type: none; /* Remove the bullet points */
+    display: inline-flex; /* Display the items inline */
+    justify-content: center; /* Center the items horizontally */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the links within the unordered list */
+  ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
