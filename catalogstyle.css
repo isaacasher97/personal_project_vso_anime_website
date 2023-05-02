@@ -2,10 +2,7 @@
 body {
     background-color: orange;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Optional: This ensures that the content is vertically centered on the page */
-  }
+}
   
   /* Style the unordered list */
   ul {
@@ -25,4 +22,3 @@ body {
     color: white;
     font-size: 18px;
   }
-  
