@@ -1,29 +1,4 @@
-/* Applied bg color to body */
-body {
-    background-color: orange;
-}
-
-/* Style the image */
-img {
-    margin-left: 350px;
-}
-
-/* style the shop now button */
-#shopnow {
-   margin-left: 840px;
-   margin-top: -15px;
-   background-color: antiquewhite;
-   font-size: 28px;
-}
-/* style h1 and h2 */
-h1, h2, p{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    color: crimson;
-  }
-
-/* The sidebar menu */
+/* Style collapsed sidebar */
 .sidebar {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -70,7 +45,6 @@ h1, h2, p{
     padding: 10px 15px;
     border: none;
   }
-  
   .openbtn:hover {
     background-color: #444;
   }
@@ -80,9 +54,64 @@ h1, h2, p{
     transition: margin-left .5s; /* If you want a transition effect */
     padding: 20px;
   }
-  
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+
+    /* style h1*/
+    h1 {
+      text-align: center;
+      text-decoration: underline;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 50px;
+      color: crimson;
+    }
+
+    /* Apply background color and center elements */
+    body {
+        background-color: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      .about-section {
+        margin-top: 250px;
+        border-radius: 10px;
+        border: 5px solid black;
+        padding: 50px;
+        text-align: center;
+        background-color: rgb(228, 159, 12);
+        color: rgb(0, 0, 0);
+      }
+      p {
+        font-size: 35px;
+        font-style: italic;
+
+      }
+      
+      
+      
+     
+      
+  
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+
+      #contactbutton {
+        background-color: aqua;
+        font-size: 20px;
+      }
